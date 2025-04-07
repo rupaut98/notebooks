@@ -47,7 +47,7 @@ installation_kaggle_content = """%%capture
 !pip install pip3-autoremove
 !pip-autoremove torch torchvision torchaudio -y
 !pip install torch torchvision torchaudio xformers --index-url https://download.pytorch.org/whl/cu121
-!pip install unsloth"""
+!pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"""
 
 installation_grpo_content = """%%capture
 import os
