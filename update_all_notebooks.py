@@ -40,7 +40,7 @@ else:
     # Do this only in Colab notebooks! Otherwise use pip install unsloth
     !pip install --no-deps bitsandbytes accelerate xformers==0.0.29.post3 peft trl triton cut_cross_entropy unsloth_zoo
     !pip install sentencepiece protobuf datasets huggingface_hub hf_transfer
-    !pip install --no-deps unsloth"""
+    !pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git""""
 
 installation_kaggle_content = """%%capture
 
